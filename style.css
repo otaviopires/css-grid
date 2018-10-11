@@ -1,0 +1,42 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+}
+
+.item {
+    margin: 2px;
+    
+}
+.item p {
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+
+}
+.a {
+    background-color: lightblue;
+
+}
+
+.b {
+    background-color: lightcoral
+}
+
+.c {
+    background-color: lightcyan
+}
+
+.d {
+    background-color: lightgoldenrodyellow
+}
+
+.e {
+    background-color: lightgray
+}
+
+.f {
+    background-color: lightgreen
+}
