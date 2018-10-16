@@ -1,7 +1,8 @@
 .wrapper {
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 100px 100px 100px;
+    grid-gap: ;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(2, 50px);
 }
 
 .item {
